@@ -9,20 +9,13 @@
 
 Pod::Spec.new do |s|
   s.name             = "JTSTweener"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JTSTweener."
-  s.description      = <<-DESC
-                       An optional longer description of JTSTweener
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JTSTweener"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.version          = "0.3.0"
+  s.summary          = "A block-based tweening engine inspired by Greensock's TweenLite."
+  s.homepage         = "https://github.com/JoshuaSullivan/JTSTweenerPod"
   s.license          = 'MIT'
-  s.author           = { "Joshua Sullivan" => "jsulliva@nerdery.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JTSTweener.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Joshua Sullivan" => "joshuasullivan@gmail.com" }
+  s.source           = { :git => "https://github.com/JoshuaSullivan/JTSTweenerPod.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/ChibiJosh'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -32,7 +25,5 @@ Pod::Spec.new do |s|
     'JTSTweener' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'QuartzCore'
 end
