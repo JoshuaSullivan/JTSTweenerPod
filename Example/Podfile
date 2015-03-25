@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JTSTweener', :exclusive => true do
+  pod "JTSTweener", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JTSTweener", :path => "../"
+
+  pod 'Kiwi'
+end
