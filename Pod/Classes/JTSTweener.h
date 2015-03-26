@@ -72,7 +72,7 @@ extern const struct JTSTweenerOptions {
  *  @param startingValue   The value the tween starts on.
  *  @param endingValue     The value the tween ends on.
  *  @param easingCurve     The easing curve for the tween.
- *  @param optionsOrNil    The options dictionary for the tween. Currently, no configuration options are supported, so this can be left as nil.
+ *  @param optionsOrNil    The options dictionary for the tween.
  *  @param progressBlock   The callback block that is invoked every time the tweener changes its value.
  *  @param completionBlock An optional callback block invoked after the final progress update.
  *
